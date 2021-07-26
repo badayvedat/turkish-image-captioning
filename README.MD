@@ -67,7 +67,7 @@ $ cd app
 $ flask run
 ```
 
-### Using on Command Line
+### Using CLI
 ```bash
 $ python3 evaluate.py path_to_image
 ```
