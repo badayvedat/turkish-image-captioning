@@ -62,14 +62,6 @@ $ docker run -p 5000:5000 turkish-caption
 ```
 
 ### Using Flask
-Change paths in `app/app.py`, line 15-18
-```python
-CONFIG_PATH = ...
-VOCAB_PATH = ...
-WEIGHTS_PATH = ...
-```
-Then run
-
 ```bash
 $ cd app
 $ flask run
