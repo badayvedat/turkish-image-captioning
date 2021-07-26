@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Turkish Image Captioning Demo</title>
+  <style>
+    .progress {
+      margin-top: 10px;
+    }
+
+    #sentences {
+      font-size: large;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Generating image caption demo</h1>
+  {% if filename %}
+  <img id="image" src={{filename}}></img><br>
+  {% else %}
+  <img id="image" src="static/images/cat.jpg"></img><br>
+  {% endif %}
+  <form method="post" enctype="multipart/form-data">
+    <input type=file name=file>
+      <input type=submit value=Upload>
+  </form>
+  {% if caption %}
+  <pre id="sentences">{{caption}}</pre>
+  {% else %}
+  <pre id="sentences">Generated caption will be shown here.</pre>
+  {% endif %}
+
+  <a href="https://github.com/badayvedat/turkish-image-captioning">Source code</a>
+</body>
+
+</html>

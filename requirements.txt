@@ -1,0 +1,6 @@
+tensorflow-gpu==2.5.0
+numpy==1.19.5
+tqdm==4.61.1
+flask
+pyyaml
+scipy

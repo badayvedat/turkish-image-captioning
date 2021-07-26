@@ -1,0 +1,12 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/*
+
+# Python cache
+__pycache__
+app/__pycache__
+
+# Contents of data except scripts to download and create data
+data/coco
+data/features
+data/flickr8k
+data/flickr30k

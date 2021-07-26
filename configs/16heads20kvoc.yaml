@@ -1,0 +1,30 @@
+# Vocabulary size
+VOCAB_SIZE: 20000
+
+# Fixed length allowed for any sequence
+SEQ_LENGTH: 30
+
+# Dimension for the image embeddings and token embeddings
+EMBED_DIM: 512
+
+# Number of self-attention heads
+NUM_HEADS: 16
+
+# Per-layer units in the feed-forward network
+FF_DIM: 512
+
+# Other training parameters
+BATCH_SIZE: 128
+EPOCHS: 7
+LEARNING_RATE: 0.00001
+
+# If images will be used in dataset set it to False 
+USE_FEATURES: True
+
+# Choose which datasets will be used
+# COCO: 413915 train captions / 1000 validation captions
+COCO: True
+# Flickr8k: 16037 validation captions
+FLICKR8K: True
+# Flickr30k: 155070 train captions
+FLICKR30K: True
