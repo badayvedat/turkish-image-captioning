@@ -10,3 +10,9 @@ data/coco
 data/features
 data/flickr8k
 data/flickr30k
+
+# Tensorflow checkpoint files
+checkpoints/*
+
+# Tokenized vocabulary pickle files
+*.pkl
