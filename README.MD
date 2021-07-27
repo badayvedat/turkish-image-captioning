@@ -71,4 +71,4 @@ $ flask run
 ```bash
 $ python3 evaluate.py path_to_image
 ```
-Call `python3 evaluate.py -h` to see all parameters.
+Run `python3 evaluate.py -h` to see all parameters.
