@@ -13,7 +13,8 @@ Install dependencies. Installing on an isolated environment such as venv or cond
 $ pip install -r requirements.txt
 ```
 
-## Preparing dataset
+## Training
+### Preparing dataset
 ![alt text](data.png)
 
 All of TasvirEt dataset used in validation. Because unlike COCO and Flickr30K captions, TasvirEt is not automatically translated, making it a better choice for validation. 
@@ -40,7 +41,7 @@ Make Flickr8k dataset
 $ python3 flickr8k.py
 ```
 
-## Training
+### Running training code
 Create a config file with necessary parameters.
 For example config files check `configs/` folder.
 
@@ -50,7 +51,9 @@ $ python3 train.py configs/12heads20kvoc.yaml
 
 Run `python3 train.py -h` to see all parameters.
 
-## Usage
+Also, you can use train.ipynb notebook.
+
+## Usage - Testing
 Download config file, pre-trained weights and vocabulary file.
 Move weights file to `checkpoints/` folder. 
 Currently only jpg files are supported.
@@ -67,8 +70,8 @@ $ cd app
 $ flask run
 ```
 
-### Using CLI
+### Using on Command Line
 ```bash
 $ python3 evaluate.py path_to_image
 ```
-Run `python3 evaluate.py -h` to see all parameters.
+Call `python3 evaluate.py -h` to see all parameters.
