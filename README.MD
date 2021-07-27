@@ -21,24 +21,23 @@ All of TasvirEt dataset used in validation. Because unlike COCO and Flickr30K ca
 
 Download and create dataset
 ```bash
-$ cd data
-$ sh download_data.sh
+$ sh data/download_data.sh
 ```
 
 Make COCO dataset
 ```bash
-$ python3 coco.py
+$ python3 data/coco.py
 ```
 
 Make Flickr30k dataset
 ```bash
-$ python3 flickr30k.py
+$ python3 data/flickr30k.py
 
 ```
 
 Make Flickr8k dataset
 ```bash
-$ python3 flickr8k.py
+$ python3 data/flickr8k.py
 ```
 
 ### Running training code
