@@ -1,3 +1,6 @@
+# Change directory to data folder
+cd data/
+
 # Clone turkish captions from giddyyupp/turkish-image-captioning
 git clone https://github.com/giddyyupp/turkish-image-captioning.git
 
