@@ -55,6 +55,9 @@ train_files, train_captions, val_files, val_captions = load_data(
     coco=COCO, flickr30k=FLICKR30K, flickr8k=FLICKR8K
 )
 
+train_captions = [[cap] for cap in train_captions]
+val_captions = [[cap] for cap in val_captions]
+
 vectorization = TextVectorization(
     max_tokens=VOCAB_SIZE,
     output_mode="int",
