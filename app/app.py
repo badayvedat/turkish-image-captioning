@@ -12,9 +12,9 @@ from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 from preprocess_utils import load_image
 from train_utils import build_caption_model
 
-CONFIG_PATH = '../configs/16heads20kvoc.yaml'
-VOCAB_PATH = '../20kVocab.pkl'
-WEIGHTS_PATH = '../checkpoints/16head20k9epoch'
+CONFIG_PATH = '../configs/12heads20kvoc.yaml'
+VOCAB_PATH = '../20000Voc.pkl'
+WEIGHTS_PATH = '../checkpoints/12heads20000_12epoch'
 
 with open(CONFIG_PATH) as f:
     config_file = yaml.safe_load(f)
