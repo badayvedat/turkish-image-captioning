@@ -15,7 +15,7 @@ FF_DIM: 512
 
 # Other training parameters
 BATCH_SIZE: 128
-EPOCHS: 7
+EPOCHS: 12
 LEARNING_RATE: 0.00001
 
 # If images will be used in dataset set it to False 
