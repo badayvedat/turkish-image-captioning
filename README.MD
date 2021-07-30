@@ -60,7 +60,7 @@ Currently only jpg files are supported.
 ### Using Dockerfile
 ```bash
 $ docker build -t turkish-caption .
-$ docker run -p 5000:5000 turkish-caption
+$ docker run -p 6006:6006 turkish-caption
 ```
 
 ### Using Flask
