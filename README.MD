@@ -54,7 +54,10 @@ Also, you can use train.ipynb notebook.
 
 ## Usage - Testing
 Download config file, pre-trained weights and vocabulary file.
-Move weights file to `checkpoints/` folder. 
+```sh
+$ sh download_pretrained.sh
+```
+
 Currently only jpg files are supported.
 
 ### Using Dockerfile
